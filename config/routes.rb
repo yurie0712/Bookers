@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get 'blogs' => 'blogs#index'
+  resources :books
 end
